@@ -1,0 +1,90 @@
+      body{
+                /*margin-top:5%;*/
+                text-align:center;
+                background: url('zodic.jpg');
+                background-repeat: no-repeat;
+                background-size: cover
+                /*height: 100vh;*/
+
+            }
+            h2, h3, h4{
+                color:black;
+                margin-bottom: 1%;
+                font-family: Courier;
+                font-weight: bold;
+            }
+            p{
+                 color:black;
+                 font-family: Arial, Helvetica, sans-serif;
+                 text-align:left;
+                 font-size: 30px;
+                 font-weight: bold;
+                 text-transform: uppercase;
+            }
+            #year, #month, #day{
+                 border-color: black;
+                color:#483d8b;
+                width: 200px;
+                background-color:white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                border-radius: 0px; 
+                font-size: 20px;
+                padding: 8px;
+                height: 40px;
+
+
+            }
+            input[placeholder]{
+                text-align: center;
+                font-family: Courier;
+                font-weight: bold;
+                color: dimgray;
+            }
+            input[type=text]{
+                text-align: center;
+                font-weight: bold;
+                margin-left: 0px;
+                width: 300px;
+                font-size: 20px;
+                color:#483d8b;
+                border-color:black;
+            }
+            #display{
+                border:#404040;
+                color:dimgray;
+                background-color:#b3d9ff;
+                padding-top:5%;
+                padding-bottom:5%;
+                text-align:center;
+                font-weight: bold;
+                border-radius: 20px; 
+            }
+            #submit{
+                border:#404040;
+                color:#fff;
+                background-color:black;
+                font-weight: bold;
+                border-radius: 20px; 
+                font-size: 30px;
+                padding: 10px;
+               
+             }
+            #submit:hover{
+            background-color:slategrey;
+            }
+            .container{
+
+                display: flex;
+                justify-content: space-around;
+                position: relative;
+                padding: 30px 10px 30px 50px;
+                line-height: 1.4;
+                margin-left:0px;
+                background:linear-gradient(rgb(255, 0, 191,0.3),rgb(0, 191, 255,0.5));
+                border: 1px solid black;
+                width: 100%;
+                height: 100%;
+               filter: alpha(opacity=60);/*  For IE8 and earlier */
+
+            }
